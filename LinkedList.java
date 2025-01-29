@@ -96,8 +96,6 @@ public void insertMiddle(int data, int pos)
             current = current.next;
             currentPos++;
         }
-
-       
         if (current == null) {
             System.out.println("Position out of bounds.");
             return;
